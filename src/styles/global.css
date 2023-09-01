@@ -1,0 +1,50 @@
+h1, p, a, h4, h2, h3, h5, h6, strong{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main, body, html {
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
+}
+
+.container {
+  margin-top: 20px;
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+img {
+    margin: 10px;
+    border-radius: 10px;
+    opacity: .9; transition: all .2s
+}
+
+video {
+    border-radius: 10px;
+}
+
+img:hover {
+    opacity: 1; transform: scale(1.04)
+}
+
+@keyframes in-circle-swoop {
+    from {
+      clip-path: var(--circle-top-right-out);
+    }
+    to {
+      clip-path: var(--circle-bottom-right-in);
+    }
+  }
+  
+  [transition-style="in:custom:circle-swoop"] {
+    --transition__duration: 5s;
+    animation-name: in-circle-swoop;
+  }
