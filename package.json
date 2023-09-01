@@ -1,0 +1,26 @@
+{
+  "name": "tortugafiles",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.0",
+    "@astrojs/svelte": "^4.0.0",
+    "@hcaptcha/react-hcaptcha": "^1.8.1",
+    "@picocss/pico": "^1.5.10",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "astro": "^3.0.5",
+    "pocketbase": "^0.17.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svelte": "^4.2.0",
+    "transition-style": "^0.1.3"
+  }
+}
